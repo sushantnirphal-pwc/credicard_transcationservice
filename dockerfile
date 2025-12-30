@@ -18,7 +18,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 # App port (Spring Boot default)
-EXPOSE 8080
+EXPOSE 8083
 
 # Optional: run with a specific Spring profile if you want
 # ENV SPRING_PROFILES_ACTIVE=dev
